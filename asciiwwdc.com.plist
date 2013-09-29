@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Searchable full-text transcripts of WWDC sessions © 2013 Let Software Dream Ltd.</string>
+	<key>EngineUrl</key>
+	<string>http://asciiwwdc.com/search?q=_agentQuery_</string>
+	<key>Identifier</key>
+	<string>biz.lsd-ltd.devon-agent.plugin.asciiwwdc</string>
+	<key>Info</key>
+	<string>ASCIIwwdc Plugin</string>
+	<key>Keyword</key>
+	<array>
+		<string>WWDC</string>
+	</array>
+	<key>Name</key>
+	<string>ASCIIwwdc</string>
+	<key>Operators</key>
+	<integer>32802</integer>
+	<key>FilterSimilarPages</key>
+	<false/>
+	<key>FilterLanguage</key>
+	<false/>
+	<key>ParseLinks</key>
+	<true/>
+	<key>LinksStart</key>
+	<string>&lt;article id=&quot;search-results&quot;</string>
+	<key>LinksEnd</key>
+	<string>&lt;/article&gt;</string>
+	<key>LinksMatching</key>
+	<string>*/sessions/*</string>
+	<key>NoTopics</key>
+	<array>
+		<string>Apple</string>
+		<string>Conference</string>
+		<string>Developer</string>
+		<string>WWDC</string>
+		<string>application</string>
+		<string>code</string>
+	</array>
+	<key>TextStart</key>
+	<string>&lt;dd&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;/dd&gt;</string>
+	<key>LinksStart</key>
+	<string>&lt;dt data-rank=&gt;</string>
+	<key>LinksEnd</key>
+	<string>&lt;/dt&gt;</string>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
